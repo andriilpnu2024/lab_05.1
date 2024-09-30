@@ -14,6 +14,7 @@ int main()
 
 	double r = (f(1,t+s, s) + f(t, s*t, 1))/(1 + pow(f(s, 1, t), 2));
 	cout << "r = " << r << endl;
+	cout << "F = " << f(1, 3, 5) << endl;
 	return 0;
 }
 double f(const double a, const double b, const double c) // визначення
